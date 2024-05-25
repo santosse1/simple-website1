@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppings", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+
+
+}
+.login-form{
+    position: relative;
+    width: 40%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 0px 570px 0px 570px ;
+    background-color: rgba(214, 202, 202, 0.548);
+}
+.hr{
+
+    top: 100px;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.check-box{
+    display: flex;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    left: 4px;
+}
+.check-box-label{
+    position: relative;
+    accent-color: #fff;
+    left: 4px;
+}
+.BT-login{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.inscrire-link{
+    position: relative;
+    top: 9px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.inscrire-link a{
+    position: relative;
+    left: 8px;
+    color: #fff;
+}
+
+.inscrire-link a:hover{
+    text-decoration: underline;
+}
